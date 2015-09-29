@@ -1,5 +1,10 @@
 # autoexecs
 
+Hello! I'm Phantom, and these are my auto execs for Dota 2 and Counter-Strike: Global Offensive.
+Below, you will also find the launch options I use, and also the file path to your cfg location.
+
+Enjoy!
+
 ## Launch Options
 ### Dota 2
 +exec autoexec.cfg
