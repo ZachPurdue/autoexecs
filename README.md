@@ -7,7 +7,7 @@ Enjoy!
 
 ## Launch Options
 ### Dota 2
-+exec autoexec.cfg
+-console -novid -high +autoexec.cfg
 
 ### CS:GO
 -processheap -novid -nojoy -noforcemparms -noforcemaccel -high -tickrate 128 -threads 4 -nod3d9ex +exec autoexec.cfg
