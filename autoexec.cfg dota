@@ -1,0 +1,46 @@
+//Phantoms DotA 2 Autoexec File
+//Credit to EG.Arteezy and NaVi.Funn1k
+//Updated 09.28.15 8:01PM
+
+
+//Enable the Console
+con_enable "1"
+
+
+//Server Commands/Network Optimization
+cl_cmdrate 60        //Amount of updates sent to server per second
+cl_updaterate 60     //Amount of updates received from server per second
+rate "80000"         //Total amount of bandwith dota may use
+cl_interp 0.05       //Sets interpolation rate
+cl_interp_ratio 1    //Sets interpolation amount
+cl_smooth 1          //Smooths prediction origin
+cl_smoothtime 0.01   //Seconds to smooth
+cl_lagcompensation 1
+cl_pred_optimize 2
+
+
+//Netgraph in-game (Reborn does this automatically now)
+net_graph 1                     //Enables netgraph
+
+
+//Health-Bar Settings: These are all related to how quickly your health/screen updates
+dota_health_hurt_decay_time_max "0"  //Fade time on DMG done/received reduced to instant
+dota_health_hurt_decay_time_min "0"  //Fade time on DMG done/received reduced to instant
+dota_health_hurt_delay "0"
+dota_pain_decay "0"
+dota_pain_factor "0"
+dota_pain_multiplier "0"
+dota_pain_fade_rate "0"
+dota_hud_healthbar_number "1"
+
+
+//Minimap Settings
+dota_minimap_hero_size 1200    //Changes the size of heroes on the minimap
+dota_minimap_misclick_time 0   //Removes delay before allowing input on minimap
+dota_minimap_show_hero_icon 0  //Show hero names instead of faces
+dota_minimap_misclick_time 0   //Minimum time after the mouse enters the minimap before we accept a move command. Used to prevent misclicks.
+
+//Miscellaneous
+dota_camera_disable_zoom 1   //Can't zoom camera in
+dota_disable_range_finder 0  //Shows spells are within casting range
+dota_sf_game_end_delay 0     //delay before scoreboard appears at end
